@@ -17,8 +17,8 @@ class CarrefourApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFFE30613),
-          primary: const Color(0xFFE30613),
+          seedColor: const Color.fromARGB(255, 12, 96, 130),
+          primary: const Color.fromARGB(255, 12, 82, 179),
         ),
       ),
       home: const MainNavigation(),
